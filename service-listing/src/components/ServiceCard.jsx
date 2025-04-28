@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ServiceCard = (data) => {
+const ServiceCard = ({ title, description }) => {
   return (
     <>
-    <h1>Service title: {data.title}</h1>
-    <p>Description: {data.description}</p>
+      <h1>Service title: {title}</h1>
+      <p>Description: {description}</p>
     </>
   )
 }
